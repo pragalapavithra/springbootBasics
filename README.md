@@ -14,6 +14,8 @@ An entity class in java which respresents the table
 
 Postgres Connection:
 Configured in application.properties with url , username and password 
+Hibernate is the ORM tool used with postgres as database configured
+JPA is used to define entities and Hibernate is the implementation of JPA
 
 Unit tests:
 MockMvc is used to perform http connections
